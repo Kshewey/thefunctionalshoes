@@ -1,0 +1,9 @@
+.shoes {
+  &-font {
+    font-family: 'Courgette', cursive;
+    text-decoration: underline;
+    font-size: 4rem;
+    color: $mainRed;
+    text-shadow: .05rem .05rem grey;
+  }
+}
