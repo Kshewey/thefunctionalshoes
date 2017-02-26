@@ -5,37 +5,29 @@
   margin-left: -.25rem;
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
-  padding-top: 1rem;
 
-
-  &-love {
-    margin-top: .3rem;
-    font-size: 4rem;
+  &-meet {
     color: $mainRed;
-    text-align: center;
+    font-size: 3rem;
+    text-shadow: .05rem .05rem black;
   }
 
-  &-list {
-    text-align: center;
-    list-style: none;
-    margin-top: -3rem;
-    line-height: 1.8;
-    color: rgba(255, 213, 0, 1);
-
-    &-personel {
-      margin-top: 2rem;
+    &-list-personel {
+      margin-top: 1rem;
       list-style: none;
       text-align: center;
       font-weight: 250;
       line-height: 3rem;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      font-weight: 100;
 
-    }
+
   }
 
   &-people {
     color: $mainRed;
       text-shadow: .05rem .05rem black;
+      font-weight: bold;
 
   }
 }

@@ -13,12 +13,6 @@
     text-shadow: .15rem .15rem grey;
   }
 
-  &__subtitle{
-    color: $mainBlue;
-    text-shadow: .05rem .05rem black;
-    text-align: center;
-    margin-top: -2.5rem;
-  }
 
 &__caption{
   font-family: 'Gloria Hallelujah', cursive;
@@ -26,6 +20,13 @@
   font-size: 1.3rem;
   color: grey;
   text-shadow: .05rem .05rem white;
+  margin-top: 4rem;
+}
+
+&-video {
+text-align: center;
+margin-top: 3rem;
+margin-bottom: 2rem;
 }
 
 }

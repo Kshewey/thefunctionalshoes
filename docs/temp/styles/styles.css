@@ -465,6 +465,7 @@ body {
   color: white;
   padding-top: 2rem;
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 img {
@@ -494,19 +495,19 @@ img {
   text-shadow: .15rem .15rem grey;
 }
 
-.main-heading__subtitle{
-  color: #2277EA;
-  text-shadow: .05rem .05rem black;
-  text-align: center;
-  margin-top: -2.5rem;
-}
-
 .main-heading__caption{
   font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
   font-size: 1.3rem;
   color: grey;
   text-shadow: .05rem .05rem white;
+  margin-top: 4rem;
+}
+
+.main-heading-video {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .wrapper {
@@ -538,24 +539,25 @@ img {
   width: 33%;
 }
 
+.row__medium-8 {
+  float:left;
+  width: 66%;
+  text-align: center;
+}
+
 .functional {
   overflow: hidden;
     color: #2277EA;
+    padding-bottom: 2rem;
 }
 
 .functional-centered {
   text-align: center;
 }
 
-.functional-meet {
-  font-size: 1.5rem;
-}
-
 .functional-list {
-  text-align: center;
   list-style: none;
   line-height: 2.5rem;
-  margin-left: -40px;
 }
 
 .functional-list-1  {
@@ -563,23 +565,34 @@ img {
 }
 
 .functional-list-2 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .functional-smaller{
   font-size: .7rem;
 }
 
-.functional-video {
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.functional-list-heading {
+  font-size: 1.5rem;
+  color: #FF2300;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.functional-love-list {
+  list-style: none;
+  line-height: 1.8;
+  color: rgba(255, 213, 0, 1);
+}
+
+.functional-spacer{
+  margin-top: 4rem;
 }
 
 .shoes-font {
   font-family: 'Courgette', cursive;
-  text-decoration: underline;
+  font-weight: 200;
   font-size: 4rem;
   color: #FF2300;
   text-shadow: .05rem .05rem grey;
@@ -592,34 +605,26 @@ img {
   margin-left: -.25rem;
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
-  padding-top: 1rem;
 }
 
-.about-love {
-  margin-top: .3rem;
-  font-size: 4rem;
+.about-meet {
   color: #FF2300;
-  text-align: center;
-}
-
-.about-list {
-  text-align: center;
-  list-style: none;
-  margin-top: -3rem;
-  line-height: 1.8;
-  color: rgba(255, 213, 0, 1);
+  font-size: 3rem;
+  text-shadow: .05rem .05rem black;
 }
 
 .about-list-personel {
-  margin-top: 2rem;
+  margin-top: 1rem;
   list-style: none;
   text-align: center;
   font-weight: 250;
   line-height: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 100;
 }
 
 .about-people {
   color: #FF2300;
   text-shadow: .05rem .05rem black;
+  font-weight: bold;
 }
