@@ -1,0 +1,41 @@
+.about {
+  color: white;
+  text-shadow: .1rem .1rem grey;
+  background-color: $mainBlue;
+  margin-left: -.25rem;
+  margin-right: -.25rem;
+  border-bottom: .5rem solid grey;
+  padding-top: 1rem;
+
+
+  &-love {
+    margin-top: .3rem;
+    font-size: 4rem;
+    color: $mainRed;
+    text-align: center;
+  }
+
+  &-list {
+    text-align: center;
+    list-style: none;
+    margin-top: -3rem;
+    line-height: 1.8;
+    color: rgba(255, 213, 0, 1);
+
+    &-personel {
+      margin-top: 2rem;
+      list-style: none;
+      text-align: center;
+      font-weight: 250;
+      line-height: 3rem;
+      font-size: 1.5rem;
+
+    }
+  }
+
+  &-people {
+    color: $mainRed;
+      text-shadow: .05rem .05rem black;
+
+  }
+}
