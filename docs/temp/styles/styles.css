@@ -465,7 +465,8 @@ body {
   color: white;
   padding-top: 2rem;
   margin: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Shadows Into Light Two', cursive;
+
 }
 
 img {
@@ -488,15 +489,14 @@ img {
 }
 
 .main-heading__title {
-  font-family:'Pangolin', cursive;
+  font-family: 'Barrio', cursive;
   color: #FF2300;
   text-align: center;
   font-size: 4rem;
   text-shadow: .15rem .15rem grey;
 }
 
-.main-heading__caption{
-  font-family: 'Gloria Hallelujah', cursive;
+.main-heading__caption {
   text-align: center;
   font-size: 1.3rem;
   color: grey;
@@ -549,6 +549,7 @@ img {
   overflow: hidden;
     color: #2277EA;
     padding-bottom: 2rem;
+      text-shadow: .02rem .02rem grey;
 }
 
 .functional-centered {
@@ -560,13 +561,11 @@ img {
   line-height: 2.5rem;
 }
 
-.functional-list-1  {
-  font-size: 2rem;
-}
-
-.functional-list-2 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.functional-list-border {
+  border-top-style: solid;
+  border-top-width: 80%;
+  border-color: #FF2300;
+  margin-bottom: 1rem;
 }
 
 .functional-smaller{
@@ -574,24 +573,26 @@ img {
 }
 
 .functional-list-heading {
-  font-size: 1.5rem;
-  color: #FF2300;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  color: rgba(255, 213, 0, 1);
 }
 
 .functional-love-list {
   list-style: none;
   line-height: 1.8;
   color: rgba(255, 213, 0, 1);
+  padding-top: .6rem;
+  margin-bottom: .8rem;
+  font-size: 2rem;
 }
 
-.functional-spacer{
-  margin-top: 4rem;
+.functional-line-spacing{
+  line-height: 6rem;
+  font-size: 2rem;
 }
 
 .shoes-font {
-  font-family: 'Courgette', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 200;
   font-size: 4rem;
   color: #FF2300;
@@ -609,6 +610,7 @@ img {
 
 .about-meet {
   color: #FF2300;
+  font-family: 'Barrio', cursive;
   font-size: 3rem;
   text-shadow: .05rem .05rem black;
 }

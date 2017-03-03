@@ -8,6 +8,7 @@
 
   &-meet {
     color: $mainRed;
+    font-family: 'Barrio', cursive;
     font-size: 3rem;
     text-shadow: .05rem .05rem black;
   }

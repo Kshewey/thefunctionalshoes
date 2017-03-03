@@ -6,7 +6,7 @@
 
 
   &__title {
-    font-family:'Pangolin', cursive;
+    font-family: 'Barrio', cursive;
     color: $mainRed;
     text-align: center;
     font-size: 4rem;
@@ -14,8 +14,7 @@
   }
 
 
-&__caption{
-  font-family: 'Gloria Hallelujah', cursive;
+&__caption {
   text-align: center;
   font-size: 1.3rem;
   color: grey;
