@@ -481,6 +481,7 @@ img {
 }
 
 .main-heading {
+
   background-color: rgba(255, 213, 0, 1);
   margin-left: -.25rem;
   margin-right: -.25rem;
@@ -492,30 +493,97 @@ img {
   font-family: 'Barrio', cursive;
   color: #FF2300;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   text-shadow: .15rem .15rem grey;
+}
+
+@media (min-width: 530px) {
+
+  .main-heading__title {
+    font-family: 'Barrio', cursive;
+    color: #FF2300;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: .15rem .15rem grey;
+  }
 }
 
 .main-heading__caption {
   text-align: center;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   color: grey;
   text-shadow: .05rem .05rem white;
-  margin-top: 4rem;
+}
+
+@media (min-width: 530px) {
+
+  .main-heading__caption {
+    font-size: 1.3rem;
+    margin-top: 4rem;
+    padding: none;
+  }
 }
 
 .main-heading-video {
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.main-heading-video-wrapper {
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+  min-width: 8rem;
+  min-height: 4.5rem;
+}
+
+@media (min-width: 530px) {
+
+  .main-heading-video-wrapper {
+    padding-left: 6.75rem;
+    padding-top: 12rem;
+    padding-right: 6.75rem;
+    padding-bottom: 12rem;
+    margin-top: -10rem;
+    margin-bottom: -10rem;
+    min-width: 32rem;
+    min-height: 18rem;
+  }
+}
+
+.main-heading-video > iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .wrapper {
-  padding-top: .2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: .3rem;
-  overflow: hidden;
+padding-right: 1rem;
+overflow: hidden;
+
+
+}
+
+@media (min-width: 530px) {
+
+  .wrapper {
+    padding-top: .2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: .3rem;
+  }
 }
 
 .row::after {
@@ -525,24 +593,41 @@ img {
 }
 
 .row--gutters > div {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.row__medium-6 {
-  float: left;
-  width: 50%;
+@media (min-width: 530px) {
+
+  .row--gutters > div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
-.row__medium-4 {
-  float: left;
-  width: 33%;
-}
+@media (min-width: 530px) {
 
-.row__medium-8 {
-  float:left;
-  width: 66%;
-  text-align: center;
+  .row__medium-6 {
+    float: left;
+    width: 50%;
+    display: block;
+  }
+
+  .row__medium-6 img {
+    min-width: 200px;
+    min-height: 130px;
+  }
+
+  .row__medium-4 {
+    float: left;
+    width: 33%;
+  }
+
+  .row__medium-8 {
+    float: left;
+    width: 66%;
+    text-align: center;
+  }
 }
 
 .functional {
@@ -577,26 +662,66 @@ img {
   color: rgba(255, 213, 0, 1);
 }
 
+@media (min-width: 530px) {
+
+  .functional-list-heading {
+    font-size: 1.3rem;
+  }
+}
+
 .functional-love-list {
   list-style: none;
   line-height: 1.8;
   color: rgba(255, 213, 0, 1);
-  padding-top: .6rem;
-  margin-bottom: .8rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 530px) {
+
+  .functional-love-list {
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1100px) {
+
+  .functional-love-list {
+    margin-top: none;
+    margin-bottom: 0;
+    padding-bottom: .4rem;
+    font-size: 2rem;
+  }
 }
 
 .functional-line-spacing{
-  line-height: 6rem;
-  font-size: 2rem;
+  line-height: 3rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 530px) {
+
+  .functional-line-spacing {
+    line-height: 6rem;
+    font-size: 2rem;
+  }
 }
 
 .shoes-font {
   font-family: 'Barrio', cursive;
   font-weight: 200;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #FF2300;
   text-shadow: .05rem .05rem grey;
+}
+
+@media (min-width: 530px) {
+
+  .shoes-font {
+    font-size: 4rem;
+  }
 }
 
 .about {
@@ -611,8 +736,15 @@ img {
 .about-meet {
   color: #FF2300;
   font-family: 'Barrio', cursive;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-shadow: .05rem .05rem black;
+}
+
+@media (min-width: 530px) {
+
+  .about-meet {
+    ont-size: 3rem;
+  }
 }
 
 .about-list-personel {
@@ -620,9 +752,17 @@ img {
   list-style: none;
   text-align: center;
   font-weight: 250;
-  line-height: 3rem;
-  font-size: 1.3rem;
+  line-height: 1.5rem;
+  font-size: .8rem;
   font-weight: 100;
+}
+
+@media (min-width: 530px) {
+
+  .about-list-personel {
+    font-size: 1.3rem;
+    line-height: 3rem;
+  }
 }
 
 .about-people {

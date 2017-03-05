@@ -28,6 +28,10 @@
     font-size: 1.3rem;
     color: rgba(255, 213, 0, 1);
 
+    @mixin atSmall {
+      font-size: 1.3rem;
+    }
+
 
 
 }
@@ -35,14 +39,32 @@
       list-style: none;
       line-height: 1.8;
       color: rgba(255, 213, 0, 1);
-      padding-top: .6rem;
-      margin-bottom: .8rem;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+
+      @mixin atSmall {
+
+      margin-top: 2rem;
+      margin-bottom: 1.8rem;
+      font-size: 2rem;
+      }
+
+      @mixin atLarge {
+      margin-top: none;
+      margin-bottom: 0;
+      padding-bottom: .4rem;
       font-size: 2rem;
 
+ }
 
 }
 &-line-spacing{
-  line-height: 6rem;
-  font-size: 2rem;
+  line-height: 3rem;
+  font-size: 1rem;
+
+  @mixin atSmall {
+    line-height: 6rem;
+      font-size: 2rem;
+  }
 }
 }

@@ -9,8 +9,12 @@
   &-meet {
     color: $mainRed;
     font-family: 'Barrio', cursive;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-shadow: .05rem .05rem black;
+
+    @mixin atSmall {
+      ont-size: 3rem;
+    }
   }
 
     &-list-personel {
@@ -18,9 +22,14 @@
       list-style: none;
       text-align: center;
       font-weight: 250;
-      line-height: 3rem;
-      font-size: 1.3rem;
+      line-height: 1.5rem;
+      font-size: .8rem;
       font-weight: 100;
+
+      @mixin atSmall {
+        font-size: 1.3rem;
+        line-height: 3rem;
+      }
 
 
   }
