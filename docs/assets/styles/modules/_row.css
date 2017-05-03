@@ -24,6 +24,7 @@ padding-right: 20px;
     float: left;
     width: 50%;
     display: block;
+    
 
     & img {
       min-width: 200px;

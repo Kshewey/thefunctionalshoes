@@ -485,21 +485,111 @@ img {
   background-color: rgba(255, 213, 0, 1);
   margin-left: -.25rem;
   margin-right: -.25rem;
+  margin-top: -2.5rem;
   border-bottom: .5rem solid grey;
+  padding-top: 8rem;
 
 }
 
-.main-heading__title {
+@media (min-width: 530px) {
+
+  .main-heading {
+    padding-left: 2rem;
+  }
+}
+
+.main-heading-sizzle {
+  text-align: center;
+  font-size: 1.3rem;
+  color: grey;
+  text-shadow: .05rem .05rem white;
+  line-height: 3;
+}
+
+.main-heading-sizzle img {
+  width: 3rem;
+  height: 3rem;
+  -webkit-transform: translateY(.95rem);
+          transform: translateY(.95rem);
+}
+
+.main-heading-sizzle-anybody {
+  font-size: 3rem;
+  color: #FF2300;
+  text-shadow: .05rem .05rem grey;
+  margin-bottom: 0;
+  margin-top: -3rem;
+}
+
+.main-heading-centered {
+  text-align: center;
+}
+
+.main-heading-logo {
+  width: 10%;
+  height: 10%;
+  margin: auto;
+  margin-bottom: -.5rem;
+}
+
+.main-heading-bottom-border {
+  width: 53%;
+  margin: auto;
+  border-bottom-style: solid;
+  border-bottom-width: 50%;
+  border-color: #FF2300;
+  box-shadow: 0 .05rem grey;
+}
+
+.main-heading-announcement {
+  color: #2277EA;
+  text-align: center;
+  text-shadow: .05rem .05rem white;
+}
+
+.main-heading-announcement a:link {
+  color: #2277EA;
+}
+
+.main-heading-announcement a:visited {
+  color: inherit;
+}
+
+.main-heading-announcement-size {
+  font-size: 3rem;
+}
+
+.main-heading-announcement-img {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+}
+
+.main-heading-shoes {
+  font-family: 'Barrio', cursive;
+  color: #FF2300;
+  text-shadow: .15rem .15rem grey;
+}
+
+.main-heading-subtitle {
+  text-align: center;
+  color: grey;
+  text-shadow: .05rem .05rem white;
+  margin-top: -.8rem;
+}
+
+.main-heading-title {
   font-family: 'Barrio', cursive;
   color: #FF2300;
   text-align: center;
   font-size: 2rem;
   text-shadow: .15rem .15rem grey;
+  margin-top: -1rem;
 }
 
 @media (min-width: 530px) {
 
-  .main-heading__title {
+  .main-heading-title {
     font-family: 'Barrio', cursive;
     color: #FF2300;
     text-align: center;
@@ -508,10 +598,10 @@ img {
   }
 }
 
-.main-heading__caption {
+.main-heading-caption {
   text-align: center;
   font-size: 1.3rem;
-  margin-top: 1.5rem;
+  margin-top: -2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: grey;
@@ -520,9 +610,8 @@ img {
 
 @media (min-width: 530px) {
 
-  .main-heading__caption {
+  .main-heading-caption {
     font-size: 1.3rem;
-    margin-top: 4rem;
     padding: none;
   }
 }
@@ -580,7 +669,7 @@ overflow: hidden;
 
   .wrapper {
     padding-top: .2rem;
-    padding-left: 2rem;
+    padding-left: 0;
     padding-right: 2rem;
     padding-bottom: .3rem;
   }
@@ -633,8 +722,28 @@ overflow: hidden;
 .functional {
   overflow: hidden;
     color: #2277EA;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
       text-shadow: .02rem .02rem grey;
+}
+
+.functional-icon {
+  text-align: center;
+}
+
+.functional-icon img {
+  width:12%;
+  height: 12%;
+  margin-bottom: 1rem;
+}
+
+.functional-instagram {
+  width: 70%;
+  margin: auto;
+}
+
+.functional-soundcloud {
+  width: 70%;
+  margin: auto;
 }
 
 .functional-centered {
@@ -651,6 +760,14 @@ overflow: hidden;
   border-top-width: 80%;
   border-color: #FF2300;
   margin-bottom: 1rem;
+}
+
+.functional-list-border-about {
+  border-top-style: solid;
+  border-top-width: 80%;
+  border-color: #FF2300;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .functional-smaller{
@@ -674,13 +791,13 @@ overflow: hidden;
   line-height: 1.8;
   color: rgba(255, 213, 0, 1);
   font-size: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 530px) {
 
   .functional-love-list {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1.8rem;
     font-size: 2rem;
   }
@@ -709,6 +826,10 @@ overflow: hidden;
   }
 }
 
+.shoes-centered {
+  text-align: center;
+}
+
 .shoes-font {
   font-family: 'Barrio', cursive;
   font-weight: 200;
@@ -727,10 +848,11 @@ overflow: hidden;
 .about {
   color: white;
   text-shadow: .1rem .1rem grey;
-  background-color: #2277EA;
   margin-left: -.25rem;
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
+  background: url(/assets/images/comic-background-blue.png);
+  background-size: tile;
 }
 
 .about-meet {
@@ -743,7 +865,7 @@ overflow: hidden;
 @media (min-width: 530px) {
 
   .about-meet {
-    ont-size: 3rem;
+    font-size: 3rem;
   }
 }
 
@@ -769,4 +891,50 @@ overflow: hidden;
   color: #FF2300;
   text-shadow: .05rem .05rem black;
   font-weight: bold;
+}
+
+.about-people a:link {
+  color: inherit;
+}
+
+.about-people a:visited {
+  color: inherit;
+}
+
+.navbar {
+  margin-top: -2rem;
+  background: rgba(255,35,0, .85);
+  color: rgba(255, 213, 0, 1);
+  position: fixed;
+  display: inline;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  z-index: 5;
+}
+
+.navbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar a {
+  color: rgba(255, 213, 0, 1);
+}
+
+.navbar-img-container {
+  display: inline;
+}
+
+.navbar img {
+  width: 5%;
+  height: 5%;
+  float: left;
+}
+
+.navbar li {
+  font-size: 1.5rem;
+  list-style: none;
+  float: right;
+  margin-left: 2rem;
 }

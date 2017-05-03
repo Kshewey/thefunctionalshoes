@@ -1,17 +1,109 @@
+
+
+
 .main-heading {
 
   background-color: rgba(255, 213, 0, 1);
   margin-left: -.25rem;
   margin-right: -.25rem;
+  margin-top: -2.5rem;
   border-bottom: .5rem solid grey;
+  padding-top: 8rem;
+  @mixin atSmall {
+    padding-left: 2rem;
+  }
+
+  &-sizzle {
+
+      text-align: center;
+      font-size: 1.3rem;
+      color: grey;
+      text-shadow: .05rem .05rem white;
+      line-height: 3;
+ & img {
+   width: 3rem;
+   height: 3rem;
+  transform: translateY(.95rem);
+
+ }
+
+    &-anybody {
+      font-size: 3rem;
+      color: $mainRed;
+      text-shadow: .05rem .05rem grey;
+      margin-bottom: 0;
+      margin-top: -3rem;
+
+    }
+    }
 
 
-  &__title {
+
+&-centered {
+  text-align: center;
+}
+
+&-logo {
+  width: 10%;
+  height: 10%;
+  margin: auto;
+  margin-bottom: -.5rem;
+}
+
+&-bottom-border {
+  width: 53%;
+  margin: auto;
+  border-bottom-style: solid;
+  border-bottom-width: 50%;
+  border-color: $mainRed;
+  box-shadow: 0 .05rem grey;
+}
+
+&-announcement {
+color: $mainBlue;
+text-align: center;
+text-shadow: .05rem .05rem white;
+
+  & a:link {
+    color: $mainBlue;
+  }
+
+  & a:visited {
+    color: inherit;
+}
+
+&-size {
+  font-size: 3rem;
+}
+
+
+}
+&-announcement-img {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+
+}
+&-shoes {
+  font-family: 'Barrio', cursive;
+  color: $mainRed;
+  text-shadow: .15rem .15rem grey;
+}
+
+&-subtitle {
+  text-align: center;
+  color: grey;
+  text-shadow: .05rem .05rem white;
+  margin-top: -.8rem;
+}
+
+  &-title {
     font-family: 'Barrio', cursive;
     color: $mainRed;
     text-align: center;
     font-size: 2rem;
     text-shadow: .15rem .15rem grey;
+    margin-top: -1rem;
 
     @mixin atSmall {
     font-family: 'Barrio', cursive;
@@ -23,10 +115,10 @@
   }
 
 
-&__caption {
+&-caption {
   text-align: center;
   font-size: 1.3rem;
-  margin-top: 1.5rem;
+  margin-top: -2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: grey;
@@ -34,11 +126,12 @@
 
   @mixin atSmall {
     font-size: 1.3rem;
-    margin-top: 4rem;
     padding: none;
   }
 
+
 }
+
 
 &-video {
   text-align: center;
