@@ -1,0 +1,51 @@
+.about {
+  color: white;
+  text-shadow: .1rem .1rem grey;
+  margin-left: -.25rem;
+  margin-right: -.25rem;
+  border-bottom: .5rem solid grey;
+  background: url(/assets/images/comic-background-blue.png);
+  background-size: tile;
+
+  &-meet {
+    color: $mainRed;
+    font-family: 'Barrio', cursive;
+    font-size: 1.5rem;
+    text-shadow: .05rem .05rem black;
+
+    @mixin atSmall {
+      font-size: 3rem;
+    }
+  }
+
+    &-list-personel {
+      margin-top: 1rem;
+      list-style: none;
+      text-align: center;
+      font-weight: 250;
+      line-height: 1.5rem;
+      font-size: .8rem;
+      font-weight: 100;
+
+      @mixin atSmall {
+        font-size: 1.3rem;
+        line-height: 3rem;
+      }
+
+
+  }
+
+  &-people {
+    color: $mainRed;
+      text-shadow: .05rem .05rem black;
+      font-weight: bold;
+      & a:link {
+        color: inherit;
+      }
+
+      & a:visited {
+        color: inherit;
+      }
+
+  }
+}

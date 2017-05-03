@@ -1,0 +1,100 @@
+.functional {
+  overflow: hidden;
+    color: #2277EA;
+    padding-bottom: 6rem;
+      text-shadow: .02rem .02rem grey;
+
+      &-icon {
+          text-align: center;
+        & img {
+        width:12%;
+        height: 12%;
+        margin-bottom: 1rem;
+
+      }
+      }
+
+      &-instagram {
+        width: 70%;
+        margin: auto;
+      }
+      &-soundcloud {
+        width: 70%;
+        margin: auto;
+      }
+
+  &-centered {
+    text-align: center;
+  }
+
+  &-list {
+    list-style: none;
+    line-height: 2.5rem;
+
+    &-border {
+      border-top-style: solid;
+      border-top-width: 80%;
+      border-color: $mainRed;
+      margin-bottom: 1rem;
+
+      &-about {
+        border-top-style: solid;
+        border-top-width: 80%;
+        border-color: $mainRed;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+
+      }
+    }
+
+  }
+  &-smaller{
+    font-size: .7rem;
+  }
+
+  &-list-heading {
+    font-size: 1.3rem;
+    color: rgba(255, 213, 0, 1);
+
+    @mixin atSmall {
+      font-size: 1.3rem;
+    }
+
+
+
+}
+    &-love-list {
+      list-style: none;
+      line-height: 1.8;
+      color: rgba(255, 213, 0, 1);
+      font-size: 1.5rem;
+      margin-top: 1rem;
+
+      @mixin atSmall {
+
+      margin-top: 1rem;
+      margin-bottom: 1.8rem;
+      font-size: 2rem;
+      }
+
+      @mixin atLarge {
+      margin-top: none;
+      margin-bottom: 0;
+      padding-bottom: .4rem;
+      font-size: 2rem;
+
+ }
+
+}
+
+
+&-line-spacing{
+  line-height: 3rem;
+  font-size: 1rem;
+
+  @mixin atSmall {
+    line-height: 6rem;
+      font-size: 2rem;
+  }
+}
+}
