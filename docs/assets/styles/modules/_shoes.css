@@ -1,5 +1,12 @@
 .shoes {
-
+&-social-media {
+  font-family: 'Barrio', cursive;
+  font-weight: 200;
+  font-size: 4rem;
+  color: $mainRed;
+  text-shadow: .05rem .05rem grey;
+  text-align: center;
+}
   &-centered {
     text-align: center;
   }
@@ -10,7 +17,7 @@
     color: $mainRed;
     text-shadow: .05rem .05rem grey;
     @mixin atSmall {
-      font-size: 4rem;
+      font-size: 2rem;
 
     }
   }

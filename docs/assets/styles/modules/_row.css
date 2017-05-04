@@ -1,5 +1,10 @@
 .row {
 
+&-medium-6 {
+  float: left;
+  width: 50%;
+}
+
   &::after {
     content: "";
     clear: both;
@@ -24,7 +29,7 @@ padding-right: 20px;
     float: left;
     width: 50%;
     display: block;
-    
+
 
     & img {
       min-width: 200px;

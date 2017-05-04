@@ -4,8 +4,7 @@
   margin-left: -.25rem;
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
-  background: url(/assets/images/comic-background-blue.png);
-  background-size: tile;
+  background-color: #0025CF;
 
   &-meet {
     color: $mainRed;

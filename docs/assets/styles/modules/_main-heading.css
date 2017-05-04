@@ -60,12 +60,13 @@
 }
 
 &-announcement {
-color: $mainBlue;
+color: #0025CF;
+font-size: 3rem;
 text-align: center;
 text-shadow: .05rem .05rem white;
 
   & a:link {
-    color: $mainBlue;
+    color: #0025CF;
   }
 
   & a:visited {
@@ -172,4 +173,25 @@ text-shadow: .05rem .05rem white;
    }
 }
 
+}
+
+
+.announcement-box {
+  background-color: #0025CF;
+  position:absolute;
+  color:rgba(255, 213, 0, 1);
+  width: 20%;
+  margin-top: 3.7rem;
+  text-align: center;
+
+  & a:link {
+    color:rgba(255, 213, 0, 1);
+  }
+
+  & a:hover {
+    color:rgba(255, 213, 0, 1);
+  }
+& a:visited {
+  color:rgba(255, 213, 0, 1);
+}
 }

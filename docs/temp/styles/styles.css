@@ -542,13 +542,14 @@ img {
 }
 
 .main-heading-announcement {
-  color: #2277EA;
+  color: #0025CF;
+  font-size: 3rem;
   text-align: center;
   text-shadow: .05rem .05rem white;
 }
 
 .main-heading-announcement a:link {
-  color: #2277EA;
+  color: #0025CF;
 }
 
 .main-heading-announcement a:visited {
@@ -658,6 +659,27 @@ img {
   height: 100%;
 }
 
+.announcement-box {
+  background-color: #0025CF;
+  position:absolute;
+  color:rgba(255, 213, 0, 1);
+  width: 20%;
+  margin-top: 3.7rem;
+  text-align: center;
+}
+
+.announcement-box a:link {
+  color:rgba(255, 213, 0, 1);
+}
+
+.announcement-box a:hover {
+  color:rgba(255, 213, 0, 1);
+}
+
+.announcement-box a:visited {
+  color:rgba(255, 213, 0, 1);
+}
+
 .wrapper {
 padding-right: 1rem;
 overflow: hidden;
@@ -673,6 +695,11 @@ overflow: hidden;
     padding-right: 2rem;
     padding-bottom: .3rem;
   }
+}
+
+.row-medium-6 {
+  float: left;
+  width: 50%;
 }
 
 .row::after {
@@ -777,6 +804,7 @@ overflow: hidden;
 .functional-list-heading {
   font-size: 1.3rem;
   color: rgba(255, 213, 0, 1);
+  list-style: none;
 }
 
 @media (min-width: 530px) {
@@ -826,6 +854,15 @@ overflow: hidden;
   }
 }
 
+.shoes-social-media {
+  font-family: 'Barrio', cursive;
+  font-weight: 200;
+  font-size: 4rem;
+  color: #FF2300;
+  text-shadow: .05rem .05rem grey;
+  text-align: center;
+}
+
 .shoes-centered {
   text-align: center;
 }
@@ -841,7 +878,7 @@ overflow: hidden;
 @media (min-width: 530px) {
 
   .shoes-font {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -851,8 +888,7 @@ overflow: hidden;
   margin-left: -.25rem;
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
-  background: url(/assets/images/comic-background-blue.png);
-  background-size: tile;
+  background-color: #0025CF;
 }
 
 .about-meet {

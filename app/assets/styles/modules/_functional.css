@@ -55,6 +55,7 @@
   &-list-heading {
     font-size: 1.3rem;
     color: rgba(255, 213, 0, 1);
+    list-style: none;
 
     @mixin atSmall {
       font-size: 1.3rem;
