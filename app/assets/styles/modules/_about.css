@@ -7,10 +7,10 @@
   background-color: #0025CF;
 
   &-meet {
-    color: $mainRed;
+    color: rgba(255, 213, 0, 1);
     font-family: 'Barrio', cursive;
     font-size: 1.5rem;
-    text-shadow: .05rem .05rem black;
+    text-shadow: .05rem .05rem grey;
 
     @mixin atSmall {
       font-size: 3rem;

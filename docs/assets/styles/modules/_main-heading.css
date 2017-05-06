@@ -8,7 +8,7 @@
   margin-right: -.25rem;
   margin-top: -2.5rem;
   border-bottom: .5rem solid grey;
-  padding-top: 8rem;
+  padding-top: 13rem;
   @mixin atSmall {
     padding-left: 2rem;
   }
@@ -180,9 +180,10 @@ text-shadow: .05rem .05rem white;
   background-color: #0025CF;
   position:absolute;
   color:rgba(255, 213, 0, 1);
-  width: 20%;
-  margin-top: 3.7rem;
+  width: 100%;
+  margin-top: 4.5%;
   text-align: center;
+
 
   & a:link {
     color:rgba(255, 213, 0, 1);

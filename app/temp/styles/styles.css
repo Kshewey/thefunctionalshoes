@@ -487,7 +487,7 @@ img {
   margin-right: -.25rem;
   margin-top: -2.5rem;
   border-bottom: .5rem solid grey;
-  padding-top: 8rem;
+  padding-top: 13rem;
 
 }
 
@@ -663,8 +663,8 @@ img {
   background-color: #0025CF;
   position:absolute;
   color:rgba(255, 213, 0, 1);
-  width: 20%;
-  margin-top: 3.7rem;
+  width: 100%;
+  margin-top: 4.5%;
   text-align: center;
 }
 
@@ -892,10 +892,10 @@ overflow: hidden;
 }
 
 .about-meet {
-  color: #FF2300;
+  color: rgba(255, 213, 0, 1);
   font-family: 'Barrio', cursive;
   font-size: 1.5rem;
-  text-shadow: .05rem .05rem black;
+  text-shadow: .05rem .05rem grey;
 }
 
 @media (min-width: 530px) {
