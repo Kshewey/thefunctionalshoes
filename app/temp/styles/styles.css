@@ -491,13 +491,6 @@ img {
 
 }
 
-@media (min-width: 530px) {
-
-  .main-heading {
-    padding-left: 2rem;
-  }
-}
-
 .main-heading-sizzle {
   text-align: center;
   font-size: 1.3rem;
@@ -586,6 +579,7 @@ img {
   font-size: 2rem;
   text-shadow: .15rem .15rem grey;
   margin-top: -1rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 530px) {
@@ -596,6 +590,7 @@ img {
     text-align: center;
     font-size: 4rem;
     text-shadow: .15rem .15rem grey;
+    margin-bottom: 2rem;
   }
 }
 
@@ -660,12 +655,35 @@ img {
 }
 
 .announcement-box {
-  background-color: #0025CF;
-  position:absolute;
-  color:rgba(255, 213, 0, 1);
-  width: 100%;
-  margin-top: 4.5%;
-  text-align: center;
+
+
+    background-color: #0025CF;
+    position:absolute;
+    color:rgba(255, 213, 0, 1);
+    width: 100%;
+    text-align: center;
+  margin-top: 8%;
+}
+
+@media (min-width: 1100px) {
+
+  .announcement-box {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .announcement-box {
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 530px) {
+
+  .announcement-box {
+    margin-top: 4.5%;
+  }
 }
 
 .announcement-box a:link {
@@ -682,6 +700,7 @@ img {
 
 .wrapper {
 padding-right: 1rem;
+padding-left: 1rem;
 overflow: hidden;
 
 
@@ -691,7 +710,7 @@ overflow: hidden;
 
   .wrapper {
     padding-top: .2rem;
-    padding-left: 0;
+    padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: .3rem;
   }
@@ -799,6 +818,10 @@ overflow: hidden;
 
 .functional-smaller{
   font-size: .7rem;
+}
+
+.functional-margin-fix {
+  margin-left: -4rem;
 }
 
 .functional-list-heading {
@@ -965,6 +988,8 @@ overflow: hidden;
 .navbar img {
   width: 5%;
   height: 5%;
+  min-width: 40px;
+  min-height: 40px;
   float: left;
 }
 

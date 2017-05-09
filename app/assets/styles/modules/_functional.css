@@ -51,7 +51,9 @@
   &-smaller{
     font-size: .7rem;
   }
-
+&-margin-fix {
+  margin-left: -4rem;
+}
   &-list-heading {
     font-size: 1.3rem;
     color: rgba(255, 213, 0, 1);

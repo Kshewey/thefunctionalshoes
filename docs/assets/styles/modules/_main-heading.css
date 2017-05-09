@@ -9,9 +9,8 @@
   margin-top: -2.5rem;
   border-bottom: .5rem solid grey;
   padding-top: 13rem;
-  @mixin atSmall {
-    padding-left: 2rem;
-  }
+
+
 
   &-sizzle {
 
@@ -105,6 +104,7 @@ text-shadow: .05rem .05rem white;
     font-size: 2rem;
     text-shadow: .15rem .15rem grey;
     margin-top: -1rem;
+    margin-bottom: 3rem;
 
     @mixin atSmall {
     font-family: 'Barrio', cursive;
@@ -112,6 +112,7 @@ text-shadow: .05rem .05rem white;
     text-align: center;
     font-size: 4rem;
     text-shadow: .15rem .15rem grey;
+    margin-bottom: 2rem;
    }
   }
 
@@ -128,6 +129,7 @@ text-shadow: .05rem .05rem white;
   @mixin atSmall {
     font-size: 1.3rem;
     padding: none;
+
   }
 
 
@@ -176,14 +178,28 @@ text-shadow: .05rem .05rem white;
 }
 
 
-.announcement-box {
-  background-color: #0025CF;
-  position:absolute;
-  color:rgba(255, 213, 0, 1);
-  width: 100%;
-  margin-top: 4.5%;
-  text-align: center;
 
+.announcement-box {
+
+
+    background-color: #0025CF;
+    position:absolute;
+    color:rgba(255, 213, 0, 1);
+    width: 100%;
+    text-align: center;
+  margin-top: 8%;
+
+@mixin atLarge {
+    margin-top: 5%;
+}
+
+@mixin atMedium {
+  margin-top: 6%;
+}
+
+@mixin atSmall {
+  margin-top: 4.5%;
+}
 
   & a:link {
     color:rgba(255, 213, 0, 1);

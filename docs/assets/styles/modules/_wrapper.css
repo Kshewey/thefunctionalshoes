@@ -1,10 +1,12 @@
 .wrapper {
 padding-right: 1rem;
+padding-left: 1rem;
 overflow: hidden;
+
 
 @mixin atSmall {
 padding-top: .2rem;
-padding-left: 0;
+padding-left: 2rem;
 padding-right: 2rem;
 padding-bottom: .3rem;
 }
