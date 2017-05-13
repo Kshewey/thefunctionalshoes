@@ -6,6 +6,22 @@
   color: $mainRed;
   text-shadow: .05rem .05rem grey;
   text-align: center;
+
+  & p {
+      font-family: 'Shadows Into Light Two', cursive;
+      text-align: center;
+      color: #0025CF;
+      font-size: 2rem;
+
+
+      & a:link {
+        color: inherit;
+      }
+
+      & a:visited {
+        color: inherit;
+      }
+  }
 }
   &-centered {
     text-align: center;

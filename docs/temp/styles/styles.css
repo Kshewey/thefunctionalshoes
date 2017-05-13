@@ -886,6 +886,21 @@ overflow: hidden;
   text-align: center;
 }
 
+.shoes-social-media p {
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
+  color: #0025CF;
+  font-size: 2rem;
+}
+
+.shoes-social-media p a:link {
+  color: inherit;
+}
+
+.shoes-social-media p a:visited {
+  color: inherit;
+}
+
 .shoes-centered {
   text-align: center;
 }
