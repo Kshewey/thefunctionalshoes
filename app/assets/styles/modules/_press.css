@@ -1,0 +1,31 @@
+.press {
+  &-subheading {
+    font-size: 2rem;
+    color: #0025CF;
+  }
+
+  &-image {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2.5rem;
+  }
+
+  &-review {
+    &-image {
+
+      & img {
+        width: 50%;
+      }
+    }
+    &-text {
+      padding-top: 5%;
+
+
+    }
+  }
+
+  &-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

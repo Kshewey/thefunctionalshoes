@@ -1,0 +1,57 @@
+.row {
+
+&-medium-6 {
+  float: left;
+  width: 50%;
+}
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
+
+
+&--gutters > div {
+padding-left: 5px;
+padding-right: 5px;
+
+
+  @mixin atSmall{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+}
+
+@mixin atSmall {
+  &__medium-6 {
+    float: left;
+    width: 50%;
+    display: block;
+
+
+    & img {
+      min-width: 200px;
+      min-height: 130px;
+    }
+
+  }
+
+  &__medium-4 {
+    float: left;
+    width: 33%;
+  }
+
+  &__medium-8 {
+    float:left;
+    width: 66%;
+    text-align: center;
+  }
+}
+&::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+}
