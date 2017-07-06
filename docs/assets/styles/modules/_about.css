@@ -6,6 +6,15 @@
   border-bottom: .5rem solid grey;
   background-color: #0025CF;
 
+  &-images {
+    display: block;
+    & img {
+      width: 400px;
+      height: 268px;
+      margin: auto;
+    }
+  }
+
   &-meet {
     color: rgba(255, 213, 0, 1);
     font-family: 'Barrio', cursive;

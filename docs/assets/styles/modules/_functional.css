@@ -4,6 +4,10 @@
     padding-bottom: 6rem;
       text-shadow: .02rem .02rem grey;
 
+      &-bottom-margin {
+        margin-bottom: 10%;;
+      }
+
       &-icon {
           text-align: center;
         & img {
@@ -30,6 +34,7 @@
   &-list {
     list-style: none;
     line-height: 2.5rem;
+    margin-top: 2rem;
 
     &-border {
       border-top-style: solid;
