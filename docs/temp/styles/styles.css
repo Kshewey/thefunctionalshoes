@@ -1042,17 +1042,17 @@ overflow: hidden;
 }
 
 .press-image {
-  width: 50%;
+  width: 70%;
   margin: auto;
   margin-bottom: 2.5rem;
 }
 
 .press-review-image img {
-  width: 80%;
+  width: 100%;
 }
 
 .press-review-text {
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .press-wrapper {
