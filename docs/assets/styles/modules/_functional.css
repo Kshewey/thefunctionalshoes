@@ -34,7 +34,7 @@
   &-list {
     list-style: none;
     line-height: 2.5rem;
-    margin-top: 2rem;
+    margin-top: 30%;
 
     &-border {
       border-top-style: solid;

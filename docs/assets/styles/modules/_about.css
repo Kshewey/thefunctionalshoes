@@ -9,8 +9,8 @@
   &-images {
     display: block;
     & img {
-      width: 400px;
-      height: 268px;
+      width: 80%;
+      min-width: 275px;
       margin: auto;
     }
   }
