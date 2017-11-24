@@ -465,7 +465,7 @@ body {
   color: white;
   padding-top: 2rem;
   margin: 0;
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Karla', sans-serif;
 
 }
 
@@ -485,9 +485,10 @@ img {
   background-color: rgba(255, 213, 0, 1);
   margin-left: -.25rem;
   margin-right: -.25rem;
-  margin-top: -2.5rem;
-  border-bottom: .5rem solid grey;
-  padding-top: 13rem;
+  margin-top: 0;
+  border-top: .3rem solid grey;
+  border-bottom: .3rem solid grey;
+  padding-top: 2rem;
 
 }
 
@@ -938,6 +939,7 @@ overflow: hidden;
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
   background-color: #0025CF;
+  padding-top: 5rem;
 }
 
 .about-images {
@@ -1015,6 +1017,7 @@ overflow: hidden;
 
 .navbar a {
   color: rgba(255, 213, 0, 1);
+  font-size: 1.4rem;
 }
 
 .navbar-img-container {

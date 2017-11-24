@@ -6,9 +6,10 @@
   background-color: rgba(255, 213, 0, 1);
   margin-left: -.25rem;
   margin-right: -.25rem;
-  margin-top: -2.5rem;
-  border-bottom: .5rem solid grey;
-  padding-top: 13rem;
+  margin-top: 0;
+  border-top: .3rem solid grey;
+  border-bottom: .3rem solid grey;
+  padding-top: 2rem;
 
 
 
