@@ -5,6 +5,7 @@
   margin-right: -.25rem;
   border-bottom: .5rem solid grey;
   background-color: #0025CF;
+  padding-top: 5rem;
 
   &-images {
     display: block;
